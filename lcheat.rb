@@ -11,8 +11,8 @@ words = File.readlines("words_long.txt")
 
 minl = ARGV[1].to_i || 2
 must = ARGV[2] || ''
-hasl = must.split(//)
-letters = ARGV[0].split(//)
+hasl = must.downcase.split(//)
+letters = ARGV[0].downcase.split(//)
 
 f = File.open('logs.txt', 'a')
 f.puts ARGV[0]
