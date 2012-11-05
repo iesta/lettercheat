@@ -9,9 +9,9 @@ Usage :
 
 LETTERS : the 25 letters from Letterpress (or more or less for other games)
 
-MINLENGTH : minimum length of the resulting words
+MINLENGTH : minimum length of the resulting words (defaults to 2)
 
-NEEDEDLETTERS : letters that need to be in the returning words
+NEEDEDLETTERS : letters that need to be in the returning words for more refinement (optionnal)
 
 The script generates a log file called logs.txt
 
